@@ -29,7 +29,7 @@ function Navbar() {
               offset={-70}
               duration={500}
             >
-              About Me
+              <span className='text-[#64ffda]'>1.</span> About Me
             </Link>
           </li>
           <li className='p-3'>
@@ -41,7 +41,7 @@ function Navbar() {
               offset={-70}
               duration={500}
             >
-              My Projects
+              <span className='text-[#64ffda]'>2.</span>My Projects
             </Link>
           </li>
           <li className='p-3'>
@@ -53,7 +53,7 @@ function Navbar() {
               offset={-70}
               duration={500}
             >
-              Contacts
+              <span className='text-[#64ffda]'>3.</span>Contacts
             </Link>
           </li>
         </ul>

@@ -6,12 +6,12 @@ import Navbar from "../components/Navbar";
 
 export default function Home() {
   return (
-    <div className='bg-[#0A192F]'>
+    <main className='bg-[#0A192F]'>
       <Head>
         <title>John K Thiongo portfolio</title>
         <meta
           name='description'
-          content='Projects by Kenyan software developer John Thiongo'
+          content='Projects by Kenyan software developer John k Thiongo'
         />
         <link rel='icon' href='/favicon.ico' />
       </Head>
@@ -24,6 +24,6 @@ export default function Home() {
 
       {/* about */}
       <About />
-    </div>
+    </main>
   );
 }
