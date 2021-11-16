@@ -23,7 +23,7 @@ function Intro() {
             and building things for the web and anything in between.
           </p>
         </div>
-        <div className='p-50 cursor-pointer  outline-green mb-20 p-5'>
+        <div className='cursor-pointer text-center p-2 min-w-min'>
           <Link
             activeClass=''
             to='contacts'
@@ -32,7 +32,7 @@ function Intro() {
             offset={-70}
             duration={500}
           >
-            <h1 className='font-heading font-200 cursor-pointer text-[#64ffda] text-center '>
+            <h1 className='font-heading font-200 cursor-pointer text-[#64ffda] overflow-none p-3 outline-green text-center w-24 '>
               Contacts
             </h1>
           </Link>

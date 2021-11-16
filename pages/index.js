@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import About from "../components/About";
 import Intro from "../components/Intro";
 import Navbar from "../components/Navbar";
 
@@ -20,6 +21,9 @@ export default function Home() {
 
       {/* intro */}
       <Intro />
+
+      {/* about */}
+      <About />
     </div>
   );
 }
