@@ -50,13 +50,13 @@ function About() {
           </div>
         </div>
         <div className='max-h-96'>
-          <Image
+          {/* <Image
             className='contain'
             alt='john thiongo'
             src='https://res.cloudinary.com/johnte/image/upload/v1615448063/profilep_zkj1dr.jpg'
             width={1080}
             height={1350}
-          />
+          /> */}
         </div>
       </div>
     </div>

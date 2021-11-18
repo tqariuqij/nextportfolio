@@ -3,6 +3,7 @@ import Image from "next/image";
 import About from "../components/About";
 import Intro from "../components/Intro";
 import Navbar from "../components/Navbar";
+import Projects from "../components/Projects";
 
 export default function Home() {
   return (
@@ -24,6 +25,9 @@ export default function Home() {
 
       {/* about */}
       <About />
+
+      {/* projects */}
+      <Projects />
     </main>
   );
 }
